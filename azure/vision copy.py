@@ -21,8 +21,8 @@ if not mainCamera.isOpened():
     mainCamera = None
     exit #camera is mandatory
 
-subscription_key = "49d61c5ff53a46339ebe3d7bb476d92b"
-endpoint = "https://brazilsouth.api.cognitive.microsoft.com/"
+subscription_key = ""
+endpoint = ""
 
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
